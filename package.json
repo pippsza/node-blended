@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node src/scripts/generateProduct.js",
+    "get-products-by-min-price": "node src/scripts/getProductsByMinPrice.js",
+    "get-total-price": "node src/scripts/getTotalPrice.js"
   },
   "repository": {
     "type": "git",
